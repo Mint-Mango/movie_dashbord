@@ -47,7 +47,7 @@ except (KeyError, FileNotFoundError):
         "Streamlit Cloud의 앱 설정에서 Secrets를 열고 "
         "KOBIS_KEY를 등록했는지 확인해 주세요."
     )
-    st.code('KOBIS_KEY = "발급밭은_키_붙여넣기"')
+    st.code('KOBIS_KEY = "발급밭은_인증키"')
     st.stop()
 
 
