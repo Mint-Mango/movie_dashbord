@@ -40,7 +40,7 @@ API_URL = (
 # 인증키를 코드에 직접 입력하지 않고 Streamlit 비밀 금고에서 가져온다.
 # secrets 설정이 누락된 경우에도 사용자가 원인을 알 수 있게 처리한다.
 try:
-    API_KEY = st.secrets["KOBIS_KEY"]
+    API_KEY = st.secrets["c33505f74bd56879f07950b8e90a3b40"]
 except (KeyError, FileNotFoundError):
     st.error(
         "인증키를 찾을 수 없습니다. "
